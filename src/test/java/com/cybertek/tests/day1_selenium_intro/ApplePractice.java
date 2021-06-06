@@ -16,6 +16,7 @@ public class ApplePractice {
         driver.get("https://www.apple.com");
 
         String expectedTitle = "Apple";
+        System.out.println("expectedTitle = " + expectedTitle);
 
         String actualTitle = driver.getTitle();
         if (actualTitle.equals(expectedTitle)) {
