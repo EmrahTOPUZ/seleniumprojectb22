@@ -31,6 +31,7 @@ public class P03_Apple_task {
             //System.out.println(headerLinks.get(eachLink).getText());
             headerLinks.get(eachLink).click();
             Thread.sleep(1000);
+            driver.findElements(By.xpath("//ul[@class='ac-gn-list']//li/a"));
 
 
 

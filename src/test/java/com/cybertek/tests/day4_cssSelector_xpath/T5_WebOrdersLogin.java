@@ -10,6 +10,9 @@ public class T5_WebOrdersLogin {
         // TC #3: PracticeCybertek/ForgotPassword URL verification
         // 1.Open Chrome browser
       ;
+       // WebDriver driver = WebDriverFactory.getDriver("chrome");
+        //driver.manage().window().maximize();
+
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
 

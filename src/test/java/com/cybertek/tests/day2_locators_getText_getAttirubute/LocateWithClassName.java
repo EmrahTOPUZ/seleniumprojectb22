@@ -24,7 +24,7 @@ public class LocateWithClassName {
         if (actualTitle.equals(expectedTitle)) {
             System.out.println("Title verification Passed");
         }else{
-            System.out.println("Title verification Passed");
+            System.out.println("Title verification Failed");
 
         }
     }
